@@ -1,4 +1,6 @@
 # pattern by any other name
+[the program](https://pcsteppan.github.io/pattern-by-any-other-name/)
+
 enter a sequence of characters, such as your name, into the center text box.
 **then press enter.**
 
