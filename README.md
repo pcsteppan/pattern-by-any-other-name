@@ -1,6 +1,6 @@
 # pattern by any other name
-enter a sequence of characters, such as you name, into the center text box.
-then press enter.
+enter a sequence of characters, such as your name, into the center text box.
+**then press enter.**
 
 characters a->z result in different colors and patterns
 so you could also just enter different sequences and see what happens
