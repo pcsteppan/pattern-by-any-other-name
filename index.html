@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>pattern by any other name</title>
+
+	<script src="./p5.min.js"></script>
+
+	<style>
+		body {
+      margin:0;
+			padding:0;
+			overflow: hidden;
+		}
+		canvas {
+			margin:auto;
+		}
+		#seed-wrapper{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+		}
+		#seed{
+			display: flex;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+		#seed>input{
+			background-color: white;
+			color:#222;
+			border: dotted 1px black;
+		}
+		#title{
+			position:absolute;
+			bottom:0;
+			left:0;
+		}
+	</style>
+</head>
+<body>
+	<img id="title" src="title.png" alt="title: a pattern by any other name would be as neat">
+	<div id="seed-wrapper">
+	<div id="seed">
+		<input type="text" id="seed-text-field">
+	</div>
+	</div>
+	<script src="sketch.js"></script>
+</body>
+</html>
